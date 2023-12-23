@@ -1,0 +1,28 @@
+Day4 JavaScript Questions:
+Ques:-Create the Example for Logical Operators 
+Ans:-AND operator &&
+let a=10;
+let b=90;
+let c=100;
+let result = a>b && a>c
+console.log('is a the greatest among three of the no '+result)
+
+Ques:-Difference between “ == “ and “ === “ operators.
+Ans:-"==" in JavaScript is used for comparing two variables, but it ignores the datatype of variable.
+Checks the equality of two operands without considering their type.
+ "===" is used for comparing two variables, but this operator also checks datatype and compares two values. 
+ Compares equality of two operands with their types.
+
+Ques:-How many operators do we have in JS ?
+Ans:-There are 7 types of JavaScript operators: Arithmetic, assignment, comparison, logical, ternary, typeof, and bitwise operators
+
+Ques:-What is use of parseInt in js?
+Ans:-The parseInt() function takes the string, radix as an argument, and converts it to an integer.
+
+Ques:-Take input from user and find the odd and even number?
+Ans:-
+ let num = prompt("enter the no ");
+ num = Number(num);
+
+ let d = num%2==0
+ alert("is no even"+d); 
